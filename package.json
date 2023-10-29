@@ -1,0 +1,15 @@
+{
+  "name": "dsa_sliding_window_technique",
+  "version": "1.0.0",
+  "description": "This is a repository to practice DSA Sliding Window technique in Javascript language",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "nodemon": "^3.0.1"
+  }
+}
