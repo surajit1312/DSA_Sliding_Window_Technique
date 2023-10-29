@@ -4,7 +4,8 @@
   "description": "This is a repository to practice DSA Sliding Window technique in Javascript language",
   "main": "index.js",
   "scripts": {
-    "p1_max_subarray_sum": "nodemon ./medium/p1_max_subarray_sum.js"
+    "p1_max_subarray_sum": "nodemon ./medium/p1_max_subarray_sum.js",
+    "p2_max_subarray_sum_of_size_K": "nodemon ./medium/p2_max_subarray_sum_of_size_K.js"
   },
   "keywords": [],
   "author": "",
