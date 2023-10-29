@@ -1,6 +1,9 @@
 console.log(
   "~~~~~~~~~~~~~~~~~~~~~~~~~~~ LeetCode 53. Maximum Subarray ~~~~~~~~~~~~~~~~~~~~~~~~~~~"
 );
+console.log(
+  "Link: https://leetcode.com/problems/maximum-subarray/description/"
+);
 
 /**
  * Brute-Force approach
@@ -32,13 +35,28 @@ var maxSubArrayBruteForce = function (nums) {
 var maxSubArray = function (nums) {
   let max = -Infinity;
   let currentSum = 0;
+  let areAllNegative = true;
   for (let i = 0; i < nums.length; i++) {
-    currentSum += nums[i];
-    if (currentSum < 0) {
-      currentSum = 0;
+    if (nums[i] >= 0) {
+      areAllNegative = false;
+      break;
     }
-    if (currentSum > max) {
-      max = currentSum;
+  }
+  if (areAllNegative) {
+    for (let i = 0; i < nums.length; i++) {
+      if (nums[i] > max) {
+        max = nums[i];
+      }
+    }
+  } else {
+    for (let i = 0; i < nums.length; i++) {
+      currentSum += nums[i];
+      if (currentSum < 0) {
+        currentSum = 0;
+      }
+      if (currentSum > max) {
+        max = currentSum;
+      }
     }
   }
   return max;
@@ -60,3 +78,7 @@ console.log(type1 + ": Maximum sub-array sum in [" + input2 + "] is : " + ans2);
 
 let res2 = maxSubArray(input2);
 console.log(type2 + ": Maximum sub-array sum in [" + input2 + "] is : " + res2);
+
+const input3 = [-5, -4, -1, -7, -8];
+const ans3 = maxSubArray(input3);
+console.log(type2 + ": Maximum sub-array sum in [" + input3 + "] is : " + ans3);
