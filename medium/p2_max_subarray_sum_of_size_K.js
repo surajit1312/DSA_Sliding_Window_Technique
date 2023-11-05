@@ -1,8 +1,8 @@
 console.log(
-  "~~~~~~~~~~~~~~~~~~~~~~~~~~~ Maximum Sum of Subarrays With Length K ~~~~~~~~~~~~~~~~~~~~~~~~~~~"
+  "~~~~~~~~~~~~~~~~~~~~~~~~~~~ Maximum Sum of Subarrays With Length K ~~~~~~~~~~~~~~~~~~~~~~~~~~~",
 );
 console.log(
-  "Link: https://www.codingninjas.com/studio/problems/maximum-of-all-subarrays-of-size-k_1170789"
+  "Link: https://www.codingninjas.com/studio/problems/maximum-of-all-subarrays-of-size-k_1170789",
 );
 
 /**
@@ -41,7 +41,7 @@ console.log(
     " in [" +
     input1 +
     "] is : " +
-    ans1
+    ans1,
 );
 
 const input2 = [1, 1, 1, 7, 8, 9];
@@ -53,7 +53,7 @@ console.log(
     " in [" +
     input2 +
     "] is : " +
-    ans2
+    ans2,
 );
 
 const input3 = [4, 4, 4];
@@ -65,5 +65,5 @@ console.log(
     " in [" +
     input3 +
     "] is : " +
-    ans3
+    ans3,
 );

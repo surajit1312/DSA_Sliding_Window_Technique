@@ -1,5 +1,5 @@
 console.log(
-  "~~~~~~~~~~~~~~~~~~~~~~~~~~~ Leetcode 643. Maximum Average Subarray I    ~~~~~~~~~~~~~~~~~~~~~~~~~~~"
+  "~~~~~~~~~~~~~~~~~~~~~~~~~~~ Leetcode 643. Maximum Average Subarray I    ~~~~~~~~~~~~~~~~~~~~~~~~~~~",
 );
 console.log("Link: https://leetcode.com/problems/maximum-average-subarray-i");
 
@@ -33,7 +33,7 @@ console.log(
     " in [" +
     input1 +
     "] is : " +
-    ans1
+    ans1,
 );
 
 const input2 = [5];
@@ -45,5 +45,5 @@ console.log(
     " in [" +
     input2 +
     "] is : " +
-    ans2
+    ans2,
 );

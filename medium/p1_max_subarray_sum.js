@@ -1,8 +1,8 @@
 console.log(
-  "~~~~~~~~~~~~~~~~~~~~~~~~~~~ LeetCode 53. Maximum Subarray ~~~~~~~~~~~~~~~~~~~~~~~~~~~"
+  "~~~~~~~~~~~~~~~~~~~~~~~~~~~ LeetCode 53. Maximum Subarray ~~~~~~~~~~~~~~~~~~~~~~~~~~~",
 );
 console.log(
-  "Link: https://leetcode.com/problems/maximum-subarray/description/"
+  "Link: https://leetcode.com/problems/maximum-subarray/description/",
 );
 
 /**
